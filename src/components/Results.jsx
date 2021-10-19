@@ -11,6 +11,15 @@ export const Results = () => {
 
     if(isLoading) return <Loading />
 
+    switch (location.pathname) {
+        case '/search':
+            return 'SEARCH'
+
+        default:
+            return 'ERROR';
+    }
+
+
     return (
         <div>
             
