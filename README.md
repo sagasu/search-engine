@@ -5,4 +5,4 @@ Search engine website using [tailwind css](https://tailwindcss.com/) and [rapid 
 ![search engine](./search.png)  
 
 
-`npm start
+`npm start`
